@@ -1,0 +1,6 @@
+# Movie Recommender Project Sources and Notes
+
+1. Movie Data Source: Kaggle (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data)
+2. Preprocessing Logic: Custom movie recommendation logic developed internally
+3. Recommendation Algorithm: Based on collaborative filtering and content-based methods
+4. External Libraries: Streamlit, NLTK, Pandas, Scikit-learn, etc.
