@@ -65,3 +65,41 @@ Ensure you have MySQL installed and running. Update your database connection det
 ```bash
 streamlit run app.py
 ```
+
+
+
+# Future Enhancements
+
+User Personalization: Extend the system to support multiple user profiles and personalized movie recommendations.
+
+Enhanced NLP Models: Integrate advanced NLP algorithms for improved recommendation accuracy.
+
+API Improvements: Optimize external API integrations to fetch the most recent movie data.
+
+
+# Contributing
+Contributions are welcome! To contribute, please follow these steps:
+
+Fork the repository.
+
+Create your feature branch:
+```bash
+git checkout -b feature/YourFeature
+```
+
+Commit your changes:
+
+```bash
+git commit -m "Add new feature"
+```
+
+Push to the branch:
+
+```bash
+git push origin feature/YourFeature
+```
+
+Open a pull request.
+
+For major changes, please open an issue first to discuss what you would like to change.
+
