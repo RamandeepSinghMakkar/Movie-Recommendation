@@ -1,5 +1,5 @@
 # Movie-Recommendation
-
+(Setup codes are given in 
 This project implements a movie recommendation system that not only suggests movies based on user searches but also provides in-depth movie details and cast information. User interactions, including search queries and recommendations, are logged into a MySQL database, allowing the system to be trained and improved over time. By default, the system uses a single user ID (1), but it is structured for future scalability.
 
 ### Technologies Used:
@@ -32,3 +32,36 @@ Each action is linked to a unique user ID (default ID: 1).
 
 <img width="1432" alt="image" src="https://github.com/user-attachments/assets/69a126f4-d520-4627-929e-07d3ca11090d" />
 
+
+## 📦 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/RamandeepSinghMakkar/Movie-Recommendation.git
+```
+### 2. Navigate to the Project Directory:
+
+```bash
+cd Movie-Recommendation
+```
+
+### 3. Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 4. Install Dependencies
+ ```bash
+pip install -r requirements.txt
+```
+
+### 5. Configure MySQL Database:
+
+Ensure you have MySQL installed and running. Update your database connection details in the configuration files if needed.
+
+### 6. Run the Application:
+
+```bash
+streamlit run app.py
+```
